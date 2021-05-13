@@ -24,37 +24,10 @@
 
     <!-- Main content -->
     <section class="content">
-      <div class="row">
-        <div class="col-md-6 offset-md-3">
-          <div class="card card-secondary">
-            <div class="card-header">
-              <h3 class="card-title">Entrada ou Saída de um usuário</h3>
-            </div>
-            <!-- /.card-header --> 
-            <form action="checkin_checkout.php" method="post">
-              <div class="card-body">
-                <div class="form-group">
-                  <label for="inputEstimatedBudget">Digite o CPF do usuário</label>
-                  <input type="text" id="inputEstimatedBudget" class="form-control">
-                </div>
-              </div>
-              <!-- /.card-body -->            
-              <div class="card-footer">
-                  <button type="submit" class="btn btn-primary"><i class="fas fa-calendar-check"></i>&nbsp;&nbsp;Fazer Check-in / Check-out</button>
-              </div>
-              <!-- /.card-footer --> 
-            </form>
-          </div>
-          <!-- /.card -->
-        </div>
-      </div>
-
-      <hr/>
-
       <div class="col-md-12">
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Usuários no Coworking</h3>
+            <h3 class="card-title">Lista de usuários no Coworking</h3>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive p-0">
@@ -85,7 +58,9 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">Alexander Pierce</td>
+                  <td class=" text-nowrap">
+                    <a href="visualizar_usuario.php">Alexander Pierce</a>
+                  </td>
                   <td class=" text-nowrap">369.258.147-99</td>
                   <td class=" text-nowrap">8h015 - 21/04/2021</td>
                   <td class=" text-nowrap">
