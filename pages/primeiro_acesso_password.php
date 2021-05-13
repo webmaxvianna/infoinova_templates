@@ -25,27 +25,26 @@
   </div>
 
   <div>
-    <div class="alert alert-danger alert-dismissible">
-      <h5><i class="icon fas fa-ban"></i> Erro!</h5>
-      email ou senha incorretos.
+    <div class="alert alert-warning alert-dismissible">
+      Para segurança de suas informações, também, é necessário que você faça a alteração de sua senha.
     </div>
   </div>
 
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg lead">Acesso ao sistema</p>
-      <form action="primeiro_acesso_username.php" method="post">
+      <p class="login-box-msg lead">Alteração de Senha</p>
+      <form action="admin_page.php" method="post">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Digite seu mail">
+          <input type="email" class="form-control" placeholder="Digite nova senha">
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+              <span class="fas fa-lock"></span>
             </div>
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Digite sua senha">
+          <input type="password" class="form-control" placeholder="Confirme nova senha">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -54,7 +53,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Acessar</button>
+            <button type="submit" class="btn btn-primary btn-block"><i class="far fa-edit"></i>&nbsp;&nbsp;Alterar Senha</button>
           </div>
           <!-- /.col -->
         </div>
