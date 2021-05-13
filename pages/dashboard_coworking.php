@@ -20,10 +20,13 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 mb-4">
             <div class="callout callout-info">
-              <h3>Olá, <\nome do usuario>!</h3>
-              <p class="lead">Seja bem-vindo(a) ao InfoInova.</p>
+              <p>
+                <span class="lead">Olá, <\nome do usuario>!</span>
+                <br/>
+                Esse é o ambiente de trabalho para < \Coworking > no InfoInova.
+              </p>
             </div><!-- /.card -->
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -103,13 +106,14 @@
             <!-- title row -->
               <div class="row">
                 <div class="col-12 mb-2">
+                  <img src="../images/usuarios/avatar-df.png" class="profile-user-img img-fluid img-circle border-2 border-success" alt="User profile picture"/>
                   <img src="../images/usuarios/avatar-df.png" class="profile-user-img img-fluid img-circle border-2 border-default" alt="User profile picture"/>
                   <h2>Alexander Pierce</h2>
                 </div>
                 <!-- /.col -->
               </div>
             <!-- info row -->
-              <div class="row invoice-info mb-2">
+              <div class="row invoice-info mb-4">
                 <div class="col-md-6 invoice-col">
                   <b>Email:</b> max@email.com<br>
                   <b>Data de nascimento:</b> 22/05/1978<br>
@@ -127,6 +131,19 @@
                   <b>Perfil de Usuário:</b> Administrador<br>
                 </div><!-- /.col -->
               </div><!-- /.row -->
+            <!-- error row -->
+              <div class="row invoice-info mb-2">
+                <div class="col-12 mb-2">
+                  <h3>
+                    CPF do Usuário não encontrado!
+                  </h3>
+                  <p>
+                    Verifique se o usuário possui cadastro no sistema.
+                    <br/>
+                    <a href="usuarios.php">Ir para lista de usuários cadastrados.</a> 
+                  </p>
+                </div>
+              </div>
             </div><!-- /.invoice -->
           </div><!-- /.col -->
         </div><!-- /.row -->        
