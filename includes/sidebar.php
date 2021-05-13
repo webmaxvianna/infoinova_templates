@@ -1,7 +1,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="" class="brand-link">
+    <a href="admin_page.php" class="brand-link">
       <img src="../images/Logo_Inova_Prudente_Sidebar.png" class="img-fluid" alt="AdminLTE Logo">
     </a>
 
@@ -12,6 +12,14 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+          <li class="nav-item has-treeview">
+            <a href="dashboard_coworking.php" class="nav-link">
+              <i class="nav-icon fas fa-home"></i>
+              <p>
+                Início
+              </p>
+            </a>
+          </li>
           <li class="nav-item has-treeview">
             <a href="checkin_checkout.php" class="nav-link">
               <i class="nav-icon fas fa-calendar-check"></i>
@@ -44,13 +52,45 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
                 Relatórios
+                <i class="right fas fa-angle-left"></i>
               </p>
             </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="relatorio_coworking.php" class="nav-link">
+                  <i class="fas fa-file"></i>&nbsp;&nbsp;
+                  <p>Coworking</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="relatorio_empresas.php" class="nav-link">
+                  <i class="fas fa-file"></i>&nbsp;&nbsp;
+                  <p>Empresas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="fas fa-cog"></i>&nbsp;&nbsp;
+              <p>
+                Configurações
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="modalidades.php" class="nav-link">
+                  <i class="fas fa-sitemap"></i>&nbsp;&nbsp;
+                  <p>Modalidades</p>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
