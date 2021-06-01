@@ -10,12 +10,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Check-in / Check-out</h1>
+            <h1>Coworking</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="admin_page.php">Início</a></li>
-              <li class="breadcrumb-item active">Checkin-Checkout</li>
+              <li class="breadcrumb-item active">Coworking</li>
             </ol>
           </div>
         </div>
@@ -27,7 +27,7 @@
       <div class="col-md-12">
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Lista de usuários no Coworking</h3>
+            <h3 class="card-title">Lista de usuários ativos</h3>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive p-0">

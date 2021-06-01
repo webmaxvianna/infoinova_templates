@@ -24,7 +24,7 @@
             <a href="checkin_checkout.php" class="nav-link">
               <i class="nav-icon fas fa-calendar-check"></i>
               <p>
-                Check-in / Check-out
+                Coworking
               </p>
             </a>
           </li>
