@@ -12,7 +12,7 @@
       <!-- Notifications Dropdown Menu -->
       <li class="nav-item dropdown mr-3">
         <a class="nav-link" data-toggle="dropdown" href="#">
-          <img src="https://localhost/Dropbox/inova/sistema3/img/usuarios/padrao.png" class="img-circle img-fluid" alt="User Image" style="height: 30px"/>
+          <img src="../images/usuarios/avatar-df.png" class="img-circle img-fluid" alt="User Image" style="height: 30px"/>
           &nbsp;&nbsp;
           Alexander Pierce
           &nbsp;&nbsp;
