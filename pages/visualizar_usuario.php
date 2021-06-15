@@ -89,10 +89,104 @@
               </div><!-- /.row -->
             </div><!-- /.invoice -->
           </div><!-- /.col -->
+        </div><!-- /.row -->  
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="card">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <p class="card-title">Tempo Total de Acessos</p>
+                  <a href="relatorio_coworking.php">Ver relatório</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex">
+                  <p class="d-flex flex-column">
+                    <span class="text-bold text-lg">3123 horas</span>
+                    <span>Total de horas (Últimos 10 dias)</span>
+                  </p>
+                </div>
+                <!-- /.d-flex -->
+
+                <div class="position-relative mb-4">
+                  <canvas id="chart2" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-md-8 -->
+          <div class="col-lg-5">
+            <div class="card">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <p class="card-title">Entrada e Saída</p>
+                  <a href="relatorio_coworking.php">Ver relatório</a>
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body table-responsive p-0" style="height: 335px;">
+                <table class="table table-bordered table-head-fixed text-nowrap">
+                  <thead>
+                    <tr>
+                      <th>Data</th>
+                      <th>Entrada</th>
+                      <th>Saída</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>10/05/2021</td>
+                      <td>08:10</td>
+                      <td>17:45</td>
+                    </tr>
+                    <tr>
+                      <td>09/05/2021</td>
+                      <td>13:03</td>
+                      <td>18:10</td>
+                    </tr>
+                    <tr>
+                      <td>09/05/2021</td>
+                      <td>08:03</td>
+                      <td>12:10</td>
+                    </tr>
+                    <tr>
+                      <td>08/05/2021</td>
+                      <td>08:20</td>
+                      <td>17:10</td>
+                    </tr>
+                    <tr>
+                      <td>07/05/2021</td>
+                      <td>13:15</td>
+                      <td>18:10</td>
+                    </tr>
+                    <tr>
+                      <td>07/05/2021</td>
+                      <td>08:15</td>
+                      <td>11:50</td>
+                    </tr>
+                    <tr>
+                      <td>05/05/2021</td>
+                      <td>08:40</td>
+                      <td>18:00</td>
+                    </tr>
+                    <tr>
+                      <td>04/05/2021</td>
+                      <td>09:05</td>
+                      <td>17:30</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
         </div><!-- /.row -->        
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
+    
 </div>
 <?php
   include ('../includes/footer.php');
