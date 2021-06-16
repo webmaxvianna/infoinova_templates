@@ -74,7 +74,8 @@
               <thead>                  
                 <tr>
                   <th>Nome</th>
-                  <th>CPF</th>
+                  <th>CPF</th>                  
+                  <th>Empresa</th>
                   <th></th>
                 </tr>
               </thead>
@@ -82,14 +83,11 @@
                 <tr>
                   <td class=" text-nowrap">Ana Souza</td>
                   <td class=" text-nowrap">123.456.789-00</td>
+                  <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
-                    </a>
-                    <a href="visualizar_usuario.php" class="btn btn-primary btn-sm center">
-                      <i class="fas fa-user"></i>&nbsp;
-                      Visualizar
                     </a>
                     <a href="alterar_usuario.php" class="btn btn-warning btn-sm center">
                       <i class="far fa-edit"></i>&nbsp;
@@ -104,14 +102,11 @@
                 <tr>
                   <td class=" text-nowrap">Jose Silva</td>
                   <td class=" text-nowrap">987.654.321-22</td>
+                  <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
-                    </a>
-                    <a href="visualizar_usuario.php" class="btn btn-primary btn-sm center">
-                      <i class="fas fa-user"></i>&nbsp;
-                      Visualizar
                     </a>
                     <a href="alterar_usuario.php" class="btn btn-warning btn-sm center">
                       <i class="far fa-edit"></i>&nbsp;
@@ -124,16 +119,13 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">Alexander Pierce</td>
+                  <td class=" text-nowrap"><a href="visualizar_usuario.php">Alexander Pierce</a></td>
                   <td class=" text-nowrap">369.258.147-99</td>
+                  <td class=" text-nowrap"><a href="visualizar_empresa.php">FUNDAÇÃO INOVA PRUDENTE</a></td>
                   <td class=" text-nowrap">
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
-                    </a>
-                    <a href="visualizar_usuario.php" class="btn btn-primary btn-sm center">
-                      <i class="fas fa-user"></i>&nbsp;
-                      Visualizar
                     </a>
                     <a href="alterar_usuario.php" class="btn btn-warning btn-sm center">
                       <i class="far fa-edit"></i>&nbsp;
@@ -148,14 +140,11 @@
                 <tr>
                   <td class=" text-nowrap">Ana Carolina Silva</td>
                   <td class=" text-nowrap">369.258.147-99</td>
+                  <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
-                    </a>
-                    <a href="visualizar_usuario.php" class="btn btn-primary btn-sm center">
-                      <i class="fas fa-user"></i>&nbsp;
-                      Visualizar
                     </a>
                     <a href="alterar_usuario.php" class="btn btn-warning btn-sm center">
                       <i class="far fa-edit"></i>&nbsp;
@@ -170,14 +159,11 @@
                 <tr>
                   <td class=" text-nowrap">Luis Henrique Souza</td>
                   <td class=" text-nowrap">369.258.147-99</td>
+                  <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
-                    </a>
-                    <a href="visualizar_usuario.php" class="btn btn-primary btn-sm center">
-                      <i class="fas fa-user"></i>&nbsp;
-                      Visualizar
                     </a>
                     <a href="alterar_usuario.php" class="btn btn-warning btn-sm center">
                       <i class="far fa-edit"></i>&nbsp;

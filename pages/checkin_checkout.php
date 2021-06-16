@@ -36,6 +36,7 @@
                 <tr>
                   <th>Nome</th>
                   <th>CPF</th>
+                  <th>Empresa</th>
                   <th>Horário de Entrada</th>
                   <th></th>
                 </tr>
@@ -44,6 +45,7 @@
                 <tr>
                   <td class=" text-nowrap">Ana Souza</td>
                   <td class=" text-nowrap">123.456.789-00</td>
+                  <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">14h35 - 21/04/2021</td>
                   <td class=" text-nowrap">
                     <button class="btn btn-danger btn-sm center">Fazer Checkout</button>
@@ -52,6 +54,7 @@
                 <tr>
                   <td class=" text-nowrap">Jose Silva</td>
                   <td class=" text-nowrap">987.654.321-22</td>
+                  <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">16h08 - 21/04/2021</td>
                   <td class=" text-nowrap">
                     <button class="btn btn-danger btn-sm center">Fazer Checkout</button>
@@ -62,6 +65,7 @@
                     <a href="visualizar_usuario.php">Alexander Pierce</a>
                   </td>
                   <td class=" text-nowrap">369.258.147-99</td>
+                  <td class=" text-nowrap"><a href="visualizar_empresa.php">FUNDAÇÃO INOVA PRUDENTE</a></td>
                   <td class=" text-nowrap">8h015 - 21/04/2021</td>
                   <td class=" text-nowrap">
                     <button class="btn btn-danger btn-sm center">Fazer Checkout</button>

@@ -81,12 +81,8 @@
               <tbody>
                 <tr>
                   <td class=" text-nowrap">04.729.502/0001-09</td>
-                  <td class=" text-nowrap">FUNDACAO INOVA PRUDENTE</td>
+                  <td class=" text-nowrap"><a href="visualizar_empresa.php">FUNDAÇÃO INOVA PRUDENTE</a></td>
                   <td class=" text-nowrap">
-                    <a href="visualizar_empresa.php" class="btn btn-primary btn-sm center">
-                      <i class="far fa-eye"></i>&nbsp;
-                      Visualizar
-                    </a>
                     <a href="alterar_empresa.php" class="btn btn-warning btn-sm center">
                       <i class="far fa-edit"></i>&nbsp;
                       Alterar
@@ -101,10 +97,6 @@
                   <td class=" text-nowrap">27.991.136/0001-67</td>
                   <td class=" text-nowrap">IBATI</td>
                   <td class=" text-nowrap">
-                    <a href="visualizar_empresa.php" class="btn btn-primary btn-sm center">
-                      <i class="far fa-eye"></i>&nbsp;
-                      Visualizar
-                    </a>
                     <a href="alterar_empresa.php" class="btn btn-warning btn-sm center">
                       <i class="far fa-edit"></i>&nbsp;
                       Alterar
