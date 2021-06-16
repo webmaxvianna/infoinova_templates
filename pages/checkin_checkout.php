@@ -27,7 +27,15 @@
       <div class="col-md-12">
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Lista de usuários ativos</h3>
+            <p class="card-title">Lista de usuários ativos</p>
+            <div class="card-tools">
+              <div class="input-group input-group-sm">
+                <input type="text" class="form-control" placeholder="Pesquisar">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive p-0">

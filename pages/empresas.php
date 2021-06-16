@@ -55,18 +55,20 @@
     <section class="content">     
       <div class="col-md-12">
         <div class="card">
-          <div class="card-header">
-              <div class="float-right">
-                  <a href="cadastrar_empresa.php" class="btn btn-sm btn-success">
-                    <i class="nav-icon fas fa-briefcase"></i>&nbsp;
-                    Cadastrar
-                  </a>
-                  <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#companiesModal">
-                    <i class="fas fa-search"></i>&nbsp;
-                    Pesquisar
-                  </button>
-              </div>             
+        <div class="card-header">             
             <p class="card-title">Lista de empresas</p>
+            <div class="card-tools">
+              <div class="input-group input-group-sm">
+                <a href="cadastrar_usuario.php" class="btn btn-sm btn-success mr-2">
+                  <i class="fas fa-user-plus"></i>&nbsp;
+                  Cadastrar
+                </a>
+                <input type="text" class="form-control" placeholder="Pesquisar">
+                <div class="input-group-append">
+                  <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+              </div>             
+            </div>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive p-0">
