@@ -21,9 +21,10 @@
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <span class="dropdown-item dropdown-header"><u>Perfil: Administrador</u></span>
           <div class="dropdown-divider"></div>
-            <a href="alterar_usuario.php" class="dropdown-item"><i class="fas fa-user mr-2"></i>Alterar Dados Pessoais</a>          <div class="dropdown-divider"></div>
-            <a href="alterar_senha.php" class="dropdown-item"><i class="fas fa-unlock-alt mr-2"></i>Alterar Senha</a>          <div class="dropdown-divider"></div>
-            <a href="login.php" class="dropdown-item dropdown-footer"><i class="fas fa-sign-out-alt"></i> Sair do sistema</a>        </div>
+            <a href="visualizar_usuario.php" class="dropdown-item"><i class="fas fa-user mr-2"></i>Ver meu perfil</a><div class="dropdown-divider"></div>
+            <a href="alterar_usuario.php" class="dropdown-item"><i class="fas fa-user-edit mr-2"></i>Alterar Dados Pessoais</a><div class="dropdown-divider"></div>
+            <a href="alterar_senha.php" class="dropdown-item"><i class="fas fa-unlock-alt mr-2"></i>Alterar Senha</a><div class="dropdown-divider"></div>
+            <a href="login.php" class="dropdown-item dropdown-footer"><i class="fas fa-sign-out-alt"></i> Sair do sistema</a></div>
       </li>
     </ul>
 
