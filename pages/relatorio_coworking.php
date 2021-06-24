@@ -25,7 +25,7 @@
     <!-- Main content -->
     <section class="content">
       <div class="row">
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-10 offset-md-1">
           <div class="card card-secondary">
             <div class="card-header">
               <h3 class="card-title">Pesquisar um intervalo de dias</h3>
@@ -34,13 +34,23 @@
             <form action="checkin_checkout.php" method="post">
               <div class="card-body">
                 <div class="row">
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-4">
                     <label for="inputEstimatedBudget">Data inicial</label>
                     <input type="text" id="inputEstimatedBudget" class="form-control">
                   </div>
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-4">
                     <label for="inputEstimatedBudget">Data final</label>
                     <input type="text" id="inputEstimatedBudget" class="form-control">
+                  </div>
+                  <div class="form-group col-md-4">
+                  <div class="form-group">
+                    <label>Ordenar por</label>
+                      <select class="form-control">
+                        <option>Total de Horas</option>
+                        <option>Quantidade de Check-ins</option>
+                        <option>Quantidade de Ocorrências</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
                 
