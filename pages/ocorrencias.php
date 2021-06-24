@@ -55,7 +55,7 @@
             <!-- /.card-header -->
             <div class="card-body">
               <div class="lead">
-                Nome: <strong>Maxmiliano Vianna Bentes</strong>
+                Nome: <a href="visualizar_usuario.php"><strong>Maxmiliano Vianna Bentes</strong></a>
                 <br/>
                 <small>CPF: 123.456.789-99</small>
               </div>

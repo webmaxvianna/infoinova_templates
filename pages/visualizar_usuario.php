@@ -52,6 +52,9 @@
                     <i class="fas fa-edit"></i>&nbsp;
                     Alterar Usuário
                   </a>
+                  <a href="ocorrencias.php" class="btn btn-info btn-sm center ml-1">
+                    3 ocorrências
+                  </a>
                 </div>
                 <!-- /.col -->
               </div>
