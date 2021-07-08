@@ -14,8 +14,34 @@
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
 
+  <link rel="stylesheet" href="../plugins/mobiscroll-eventcalendar/css/mobiscroll.jquery.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <style>
+    .mbsc-event-list-scroll {overflow:auto;-webkit-overflow-scrolling:touch}
+
+    /* unvisited link */
+.alink {
+  color: red;
+  text-decoration: underline;
+}
+
+/* visited link */
+.alink:visited {
+  color: green;
+}
+
+/* mouse over link */
+.alink:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.alink:active {
+  color: blue;
+}
+  </style>
 
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">

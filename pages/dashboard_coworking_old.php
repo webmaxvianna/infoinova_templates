@@ -33,7 +33,7 @@
       </div>
 
       <!-- Flash message -->
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <div class="row">
           <div class="col-md-10 offset-md-1">
             <div class="alert alert-success alert-dismissible">
@@ -44,10 +44,10 @@
             </div>               
           </div>
         </div>
-      </div>    
+      </div>     -->
       <!-- /.flash message -->
       <!-- Flash message -->
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <div class="row">
           <div class="col-md-10 offset-md-1">
             <div class="alert alert-secondary alert-dismissible">
@@ -58,10 +58,10 @@
             </div>               
           </div>
         </div>
-      </div>    
+      </div>     -->
       <!-- /.flash message -->
       <!-- Flash message -->
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <div class="row">
           <div class="col-md-10 offset-md-1">
             <div class="alert alert-danger alert-dismissible">
@@ -72,11 +72,12 @@
             </div>               
           </div>
         </div>
-      </div>    
+      </div>     -->
       <!-- /.flash message -->
+
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <div class="card card-secondary">
               <div class="card-header">
                 <h3 class="card-title">Entrada ou Saída de um usuário</h3>
@@ -87,34 +88,34 @@
                   <div class="form-group">
                     <label for="inputEstimatedBudget">Digite o CPF do usuário</label>
                     <input type="text" id="inputEstimatedBudget" class="form-control">
-                    <input type="text" id="inputEstimatedBudget" class="form-control" disabled>
+                    <!-- <input type="text" id="inputEstimatedBudget" class="form-control" disabled> -->
                   </div>
                 </div>
                 <!-- /.card-body -->            
                 <div class="card-footer">
                     <button type="submit" class="btn btn-primary"><i class="fas fa-calendar-check"></i>&nbsp;&nbsp;Fazer Check-in / Check-out</button>
-                    <button type="submit" class="btn btn-warning"><i class="fas fa-calendar-check"></i>&nbsp;&nbsp;Refazer Check-in / Check-out</button>
+                    <!-- <button type="submit" class="btn btn-warning"><i class="fas fa-calendar-check"></i>&nbsp;&nbsp;Refazer Check-in / Check-out</button> -->
                 </div>
                 <!-- /.card-footer --> 
               </form>
             </div>
             <!-- /.card -->
           </div>
-          <div class="col-md-8">
+          <div class="col-lg-8">
             <!-- Main content -->
             <div class="invoice p-3 mb-3">
             <!-- title row -->
               <div class="row">
                 <div class="col-12 mb-2">
                   <img src="../images/usuarios/avatar-df.png" class="profile-user-img img-fluid img-circle border-2 border-success" alt="User profile picture"/>
-                  <img src="../images/usuarios/avatar-df.png" class="profile-user-img img-fluid img-circle border-2 border-default" alt="User profile picture"/>
+                  <!-- <img src="../images/usuarios/avatar-df.png" class="profile-user-img img-fluid img-circle border-2 border-default" alt="User profile picture"/> -->
                   <h2>Alexander Pierce</h2>
                 </div>
                 <!-- /.col -->
               </div>
             <!-- info row -->
               <div class="row invoice-info mb-4">
-                <div class="col-md-6 invoice-col">
+                <div class="col-sm-6 invoice-col">
                   <b>Email:</b> max@email.com<br>
                   <b>Data de nascimento:</b> 22/05/1978<br>
                   <b>RG:</b> 30.956.492-x<br>
@@ -123,7 +124,7 @@
                   <b>Nome do Responsável:</b> <br>
                   <b>Telefonedo Responsável:</b> <br>
                 </div><!-- /.col -->
-                <div class="col-md-6 invoice-col">
+                <div class="col-sm-6 invoice-col">
                   <b>Área de Atuação:</b> Tecnologgia<br>
                   <b>Área de Interesse:</b> Informatica<br>
                   <b>Empresa:</b> Inova Prudente<br>
@@ -132,7 +133,7 @@
                 </div><!-- /.col -->
               </div><!-- /.row -->
             <!-- error row -->
-              <div class="row invoice-info mb-2">
+              <!-- <div class="row invoice-info mb-2">
                 <div class="col-12 mb-2">
                   <h3>
                     CPF do Usuário não encontrado!
@@ -143,10 +144,115 @@
                     <a href="usuarios.php">Ir para lista de usuários cadastrados.</a> 
                   </p>
                 </div>
-              </div>
+              </div> -->
             </div><!-- /.invoice -->
           </div><!-- /.col -->
-        </div><!-- /.row -->        
+        </div><!-- /.row -->     
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card card-secondary">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <h3 class="card-title">Total de Acessos</h3>
+                  <a class="alink" href="javascript:void(0);">Ver relatório</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex">
+                  <p class="d-flex flex-column">
+                    <span class="text-bold text-lg">4.230 acessos</span>
+                    <span>Total de acessos (Últimos 10 dias)</span>
+                  </p>
+                </div>
+                <!-- /.d-flex -->
+
+                <div class="position-relative mb-4">
+                  <canvas id="chart1" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+          <div class="col-md-6">
+            <div class="card card-secondary">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <h3 class="card-title">Tempo Total de Acessos</h3>
+                  <a class="alink" href="javascript:void(0);">Ver relatório</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex">
+                  <p class="d-flex flex-column">
+                    <span class="text-bold text-lg">3123 horas</span>
+                    <span>Total de horas (Últimos 10 dias)</span>
+                  </p>
+                </div>
+                <!-- /.d-flex -->
+
+                <div class="position-relative mb-4">
+                  <canvas id="chart2" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+        </div><!-- /.row -->     
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card card-secondary">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <h3 class="card-title">Total de Acessos</h3>
+                  <a class="alink" href="javascript:void(0);">Ver relatório</a>
+                </div>
+              </div>
+              <div class="card-body" style="height:350px">
+                <div class="d-flex">
+                  <p class="d-flex flex-column">
+                    <span class="text-bold text-lg">4.230 acessos</span>
+                    <span>Total de acessos (Últimos 10 dias)</span>
+                  </p>
+                </div>
+                <!-- /.d-flex -->
+                <div class="callout callout-info">
+                  <h5>I am an info callout!</h5>
+
+                  <p>Follow the steps to continue to payment.</p>
+                </div>
+
+                <div class="position-relative mb-4">
+                  <canvas id="chart1" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+          <div class="col-md-6">
+            <div class="card card-secondary">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <h3 class="card-title mb-0">Agenda</h3>
+                  <a class="alink" href="javascript:void(0);">Ver calendário</a>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <div>
+                  <div style="height:350px">
+                    <div id="demo-loading-inline-data"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+        </div><!-- /.row -->    
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content --> 
