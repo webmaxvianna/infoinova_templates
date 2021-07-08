@@ -50,7 +50,11 @@
                   <h2>Alexander Pierce</h2>
                   <a href="alterar_usuario.php" class="btn btn-warning btn-sm center">
                     <i class="fas fa-edit"></i>&nbsp;
-                    Alterar Usuário
+                    Alterar
+                  </a>
+                  <a href="#" class="btn btn-danger btn-sm center" onclick="return confirm('Você realmente quer excluir esse usuário?');">
+                    <i class="far fa-trash-alt"></i>&nbsp;
+                    Excluir
                   </a>
                   <a href="ocorrencias.php" class="btn btn-info btn-sm center ml-1">
                     3 ocorrências
