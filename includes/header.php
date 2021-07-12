@@ -20,27 +20,33 @@
 
   <style>
     .mbsc-event-list-scroll {overflow:auto;-webkit-overflow-scrolling:touch}
+    .my-title {
+      font-weight: bold;
+    }
+    .my-custom-field {
+      font-size: 80%;
+    }
 
     /* unvisited link */
-.alink {
-  color: red;
-  text-decoration: underline;
-}
+    .alink {
+      color: red;
+      text-decoration: underline;
+    }
 
-/* visited link */
-.alink:visited {
-  color: green;
-}
+    /* visited link */
+    .alink:visited {
+      color: green;
+    }
 
-/* mouse over link */
-.alink:hover {
-  color: hotpink;
-}
+    /* mouse over link */
+    .alink:hover {
+      color: hotpink;
+    }
 
-/* selected link */
-.alink:active {
-  color: blue;
-}
+    /* selected link */
+    .alink:active {
+      color: blue;
+    }
   </style>
 
 </head>

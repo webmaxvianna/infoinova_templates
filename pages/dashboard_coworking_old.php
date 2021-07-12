@@ -77,7 +77,7 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-md-4">
             <div class="card card-secondary">
               <div class="card-header">
                 <h3 class="card-title">Entrada ou Saída de um usuário</h3>
@@ -101,7 +101,7 @@
             </div>
             <!-- /.card -->
           </div>
-          <div class="col-lg-8">
+          <div class="col-md-8">
             <!-- Main content -->
             <div class="invoice p-3 mb-3">
             <!-- title row -->
