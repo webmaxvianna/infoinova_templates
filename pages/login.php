@@ -21,15 +21,15 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Info</b>Inova</a>
+    <img src="../images/logo_infoinova_login.png" alt=""></br>
   </div>
 
-  <div>
+  <!-- <div>
     <div class="alert alert-danger alert-dismissible">
       <h5><i class="icon fas fa-ban"></i> Erro!</h5>
       email ou senha incorretos.
     </div>
-  </div>
+  </div> -->
 
   <!-- /.login-logo -->
   <div class="card">

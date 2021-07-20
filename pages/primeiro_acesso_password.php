@@ -21,7 +21,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Info</b>Inova</a>
+    <img src="../images/logo_infoinova_login.png" alt=""></br>
   </div>
 
   <div>

@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="admin_page.php" class="brand-link">
-      <img src="../images/Logo_Inova_Prudente_Sidebar.png" class="img-fluid" alt="AdminLTE Logo">
+      <img src="../images/logo_infoinova_sidebar.png" class="img-fluid" alt="AdminLTE Logo">
     </a>
 
     <!-- Sidebar -->
