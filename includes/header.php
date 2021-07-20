@@ -20,33 +20,20 @@
 
   <style>
     .mbsc-event-list-scroll {overflow:auto;-webkit-overflow-scrolling:touch}
-    .my-title {
-      font-weight: bold;
-    }
-    .my-custom-field {
-      font-size: 80%;
-    }
+    .my-title { font-weight: bold; }
+    .my-custom-field { font-size: 80%; }
 
     /* unvisited link */
-    .alink {
-      color: red;
-      text-decoration: underline;
-    }
-
+    .alink { color: red; text-decoration: underline; }
     /* visited link */
-    .alink:visited {
-      color: green;
-    }
-
+    .alink:visited { color: green; }
     /* mouse over link */
-    .alink:hover {
-      color: hotpink;
-    }
-
+    .alink:hover { color: hotpink; }
     /* selected link */
-    .alink:active {
-      color: blue;
-    }
+    .alink:active { color: blue; }
+
+    .avatar-lista { width: 40px; height: 40px; }
+    .avatar-borda-ocorrencia { border-color: steelblue; border-style: dotted; border-width: 2px; }
   </style>
 
 </head>

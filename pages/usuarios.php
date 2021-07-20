@@ -83,7 +83,10 @@
               </thead>
               <tbody>
                 <tr>
-                  <td class=" text-nowrap">Ana Souza</td>
+                  <td class=" text-nowrap">
+                    <img src="../images/usuarios/avatar2.png" id="user-img" class="avatar-lista avatar-borda-ocorrencia img-fluid img-circle mr-1" alt="User Image">
+                    Ana Souza
+                  </td>
                   <td class=" text-nowrap">123.456.789-00</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
@@ -102,7 +105,10 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">Jose Silva</td>
+                  <td class=" text-nowrap">
+                    <img src="../images/usuarios/avatar1.png" id="user-img" class="avatar-lista img-fluid img-circle mr-1" alt="User Image">
+                    Jose Silva
+                  </td>
                   <td class=" text-nowrap">987.654.321-22</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
@@ -121,7 +127,10 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap"><a href="visualizar_usuario.php">Alexander Pierce</a></td>
+                  <td class=" text-nowrap">
+                    <img src="../images/usuarios/avatar4.png" id="user-img" class="avatar-lista avatar-borda-ocorrencia img-fluid img-circle mr-1" alt="User Image">
+                    <a href="visualizar_usuario.php">Alexander Pierce</a>
+                  </td>
                   <td class=" text-nowrap">369.258.147-99</td>
                   <td class=" text-nowrap"><a href="visualizar_empresa.php">FUNDAÇÃO INOVA PRUDENTE</a></td>
                   <td class=" text-nowrap">
@@ -140,7 +149,10 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">Ana Carolina Silva</td>
+                  <td class=" text-nowrap">
+                    <img src="../images/usuarios/avatar3.png" id="user-img" class="avatar-lista img-fluid img-circle mr-1" alt="User Image">
+                    Ana Carolina Silva
+                  </td>
                   <td class=" text-nowrap">369.258.147-99</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
@@ -159,7 +171,10 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">Luis Henrique Souza</td>
+                  <td class=" text-nowrap">
+                    <img src="../images/usuarios/avatar5.png" id="user-img" class="avatar-lista img-fluid img-circle mr-1" alt="User Image">
+                    Luis Henrique Souza
+                  </td>
                   <td class=" text-nowrap">369.258.147-99</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
