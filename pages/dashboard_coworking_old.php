@@ -207,28 +207,84 @@
             <div class="card card-secondary">
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
-                  <h3 class="card-title">Total de Acessos</h3>
-                  <a class="alink" href="javascript:void(0);">Ver relatório</a>
+                  <h3 class="card-title">Próximos Eventos</h3>
+                  <a class="alink" href="javascript:void(0);">Ver Agenda</a>
                 </div>
               </div>
-              <div class="card-body" style="height:350px">
-                <div class="d-flex">
-                  <p class="d-flex flex-column">
-                    <span class="text-bold text-lg">4.230 acessos</span>
-                    <span>Total de acessos (Últimos 10 dias)</span>
-                  </p>
-                </div>
-                <!-- /.d-flex -->
-                <div class="callout callout-info">
-                  <h5>I am an info callout!</h5>
-
-                  <p>Follow the steps to continue to payment.</p>
-                </div>
-
-                <div class="position-relative mb-4">
-                  <canvas id="chart1" height="200"></canvas>
-                </div>
+              <div class="card-body table-responsive p-0" style="height: 350px;">
+                <table class="table table-striped table-bordered table-head-fixed text-nowrap">
+                  <thead>
+                    <tr>
+                      <th class="">Data</th>                      
+                      <th class="">Hora</th>
+                      <th class="w-75">Evento</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento Lorem ipsum dolor sit amet consectetur adipiscing elit</strong><br/>
+                          <small>Local: Auditório</small>
+                        </h5>                        
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 1</strong><br/>
+                          <small>Local: Sala 1</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 2</strong><br/>
+                          <small>Local: Sala 2</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 3</strong><br/>
+                          <small>Local: Sala 3</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 4</strong><br/>
+                          <small>Local: Sala 4</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 5</strong><br/>
+                          <small>Local: Sala 5</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
+              <!-- /.card-body -->
             </div>
             <!-- /.card -->
           </div>
