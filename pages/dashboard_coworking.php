@@ -116,6 +116,7 @@
             <!-- info row -->
               <div class="row invoice-info mb-4">
                 <div class="col-md-6 invoice-col">
+                  <b>Nome de Usuário:</b> maxvianna<br>
                   <b>Email:</b> max@email.com<br>
                   <b>Data de nascimento:</b> 22/05/1978<br>
                   <b>RG:</b> 30.956.492-x<br>
