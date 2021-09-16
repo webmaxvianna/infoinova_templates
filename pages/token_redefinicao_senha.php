@@ -18,14 +18,6 @@
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-  
-  <style>
-    #g-recaptcha {
-      width: 302px;
-      margin: auto;
-    }
-  </style>
-
 </head>
 
 <body class="hold-transition login-page">
@@ -44,37 +36,27 @@
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg lead">Acesso ao sistema</p>
-        <form action="primeiro_acesso_username.php" method="post">
+        <p class="login-box-msg">Enviamos, para seu e-mail, um código para alteração de senha</p>
+        <form action="redefinicao_senha.php" method="post">
           <div class="input-group mb-3">
-            <input type="email" class="form-control" placeholder="E-mail ou nome de usuário">
+            <input type="email" class="form-control" placeholder="Informe o código">
             <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-envelope"></span>
+                <span class="fas fa-asterisk"></span>
               </div>
             </div>
+          <p class="mb-3">
+            <small><code>O e-mail pode demorar de 3 a 5 minutos para chegar, verifique sua caixa de SPAM/Lixeira.</code></small>
+          </p>
           </div>
-          <div class="input-group mb-3">
-            <input type="password" class="form-control" placeholder="Senha">
-            <div class="input-group-append">
-              <div class="input-group-text">
-                <span class="fas fa-lock"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="mb-3">
-            <div class="text-center" id="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Lc7qKgZAAAAAIUdkr838gUXVNTSCvMCWn7ywBQE"></div>
-          </div>
-
           <div class="row">
             <div class="col-12 mb-3">
-              <button type="submit" class="btn btn-primary btn-block" disabled><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Acessar</button>
+              <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Verificar código</button>
             </div>
             <!-- /.col -->
             <div class="col-12">
               <p>
-                <a href="email_redefinicao_senha.php">&raquo; Esqueci minha senha</a>
+                <a href="login.php">&raquo; Voltar à tela de login</a>
               </p>
             </div>
           </div>
@@ -92,20 +74,6 @@
   <!-- AdminLTE App -->
   <script src="../dist/js/adminlte.min.js"></script>
 
-  <!-- Google Recaptcha -->
-  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
-  <script>
-    var onloadCallback = function () {
-      grecaptcha.render('g-recaptcha', {
-        'sitekey': '6Lc7qKgZAAAAAIUdkr838gUXVNTSCvMCWn7ywBQE',
-        'theme': 'light'
-      })
-    }
-
-    function recaptchaCallback() {
-      jQuery('.btn').prop('disabled', false);
-    }
-  </script>
 </body>
 
 </html>
