@@ -45,10 +45,18 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-building"></i>
+            <a href="salas.php" class="nav-link">
+              <i class="nav-icon fab fa-houzz"></i>
               <p>
                 Salas
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="eventos.php" class="nav-link">
+              <i class="nav-icon fas fa-building"></i>
+              <p>
+                Eventos
               </p>
             </a>
           </li>
