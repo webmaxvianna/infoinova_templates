@@ -115,7 +115,7 @@
               </div>
             <!-- info row -->
               <div class="row invoice-info mb-4">
-                <div class="col-md-6 invoice-col">
+                <div class="col-sm-6 invoice-col">
                   <b>Nome de Usuário:</b> maxvianna<br>
                   <b>Email:</b> max@email.com<br>
                   <b>Data de nascimento:</b> 22/05/1978<br>
@@ -125,7 +125,7 @@
                   <b>Nome do Responsável:</b> <br>
                   <b>Telefonedo Responsável:</b> <br>
                 </div><!-- /.col -->
-                <div class="col-md-6 invoice-col">
+                <div class="col-sm-6 invoice-col">
                   <b>Área de Atuação:</b> Tecnologgia<br>
                   <b>Área de Interesse:</b> Informatica<br>
                   <b>Empresa:</b> Inova Prudente<br>
@@ -151,12 +151,12 @@
         </div><!-- /.row -->     
 
         <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
+          <div class="col-md-6">
+            <div class="card card-secondary">
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
                   <h3 class="card-title">Total de Acessos</h3>
-                  <a href="javascript:void(0);">Ver relatório</a>
+                  <a class="alink" href="javascript:void(0);">Ver relatório</a>
                 </div>
               </div>
               <div class="card-body">
@@ -176,12 +176,12 @@
             <!-- /.card -->
           </div>
           <!-- /.col-md-6 -->
-          <div class="col-lg-6">
-            <div class="card">
+          <div class="col-md-6">
+            <div class="card card-secondary">
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
                   <h3 class="card-title">Tempo Total de Acessos</h3>
-                  <a href="javascript:void(0);">Ver relatório</a>
+                  <a class="alink" href="javascript:void(0);">Ver relatório</a>
                 </div>
               </div>
               <div class="card-body">
@@ -202,6 +202,114 @@
           </div>
           <!-- /.col-md-6 -->
         </div><!-- /.row -->     
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card card-secondary">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <h3 class="card-title">Próximos Eventos</h3>
+                  <a class="alink" href="javascript:void(0);">Ver Agenda</a>
+                </div>
+              </div>
+              <div class="card-body table-responsive p-0" style="height: 350px;">
+                <table class="table table-striped table-bordered table-head-fixed text-nowrap">
+                  <thead>
+                    <tr>
+                      <th class="">Data</th>                      
+                      <th class="">Hora</th>
+                      <th class="w-75">Evento</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento Lorem ipsum dolor sit amet consectetur adipiscing elit</strong><br/>
+                          <small>Local: Auditório</small>
+                        </h5>                        
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 1</strong><br/>
+                          <small>Local: Sala 1</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 2</strong><br/>
+                          <small>Local: Sala 2</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 3</strong><br/>
+                          <small>Local: Sala 3</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 4</strong><br/>
+                          <small>Local: Sala 4</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19/07/2021</td>
+                      <td>10h00<br/>12h00</td>
+                      <td>
+                        <h5>
+                          <strong>Evento 5</strong><br/>
+                          <small>Local: Sala 5</small>
+                        </h5> 
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+          <div class="col-md-6">
+            <div class="card card-secondary">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <h3 class="card-title mb-0">Agenda</h3>
+                  <a class="alink" href="javascript:void(0);">Ver calendário</a>
+                </div>
+              </div>
+              <div class="card-body p-0">
+                <div>
+                  <div style="height:350px">
+                    <div id="demo-loading-inline-data"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+        </div><!-- /.row -->    
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content --> 
