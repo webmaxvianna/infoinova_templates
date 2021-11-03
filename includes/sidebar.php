@@ -6,15 +6,38 @@
     </a>
 
     <!-- Sidebar -->
-    <div class="sidebar">    
+    <div class="sidebar">
       <!-- Sidebar Menu -->
       <nav class="mt-5 mb-5 pb-5">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+          <!-- <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-home"></i>
+              <p>
+                Início
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="dashboard_coworking.php" class="nav-link">
+                  <i class="fas fa-clone"></i>&nbsp;&nbsp;
+                  <p>Dashboard - Coworking</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="dashboard_visitante.php" class="nav-link">
+                  <i class="fas fa-clone"></i>&nbsp;&nbsp;
+                  <p>Dashboard - Visitante</p>
+                </a>
+              </li>
+            </ul>
+          </li> -->
           <li class="nav-item has-treeview">
             <a href="dashboard_coworking.php" class="nav-link">
-              <i class="nav-icon fas fa-home"></i>
+              <i class="nav-icon fas fa-calendar-check"></i>
               <p>
                 Início
               </p>
@@ -96,6 +119,12 @@
                 <a href="modalidades.php" class="nav-link">
                   <i class="fas fa-sitemap"></i>&nbsp;&nbsp;
                   <p>Modalidades</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="sobre.php" class="nav-link">
+                  <i class="fas fa-laptop-code"></i>&nbsp;&nbsp;
+                  <p>Sobre</p>
                 </a>
               </li>
             </ul>
