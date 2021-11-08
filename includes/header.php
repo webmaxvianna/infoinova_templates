@@ -34,6 +34,7 @@
 
     .avatar-lista { width: 40px; height: 40px; }
     .avatar-borda-ocorrencia { border-color: steelblue; border-style: dotted; border-width: 2px; }
+     table .avatar-td { padding-right: 60px; }
   </style>
 
 </head>

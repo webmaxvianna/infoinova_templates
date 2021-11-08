@@ -83,13 +83,17 @@
               </thead>
               <tbody>
                 <tr>
-                  <td class=" text-nowrap">
+                  <td class=" text-nowrap avatar-td">
                     <img src="../images/usuarios/avatar2.png" id="user-img" class="avatar-lista avatar-borda-ocorrencia img-fluid img-circle mr-1" alt="User Image">
                     Ana Souza
                   </td>
                   <td class=" text-nowrap">123.456.789-00</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
+                    <a href="#" class="btn btn-primary btn-sm center">
+                      <i class="far fa-check-square"></i>&nbsp;
+                      Check-in
+                    </a>
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
@@ -105,13 +109,17 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">
+                  <td class=" text-nowrap avatar-td">
                     <img src="../images/usuarios/avatar1.png" id="user-img" class="avatar-lista img-fluid img-circle mr-1" alt="User Image">
                     Jose Silva
                   </td>
                   <td class=" text-nowrap">987.654.321-22</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
+                    <a href="#" class="btn btn-primary btn-sm center disabled">
+                      <i class="far fa-check-square"></i>&nbsp;
+                      Check-in
+                    </a>
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
@@ -127,13 +135,17 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">
+                  <td class=" text-nowrap avatar-td">
                     <img src="../images/usuarios/avatar4.png" id="user-img" class="avatar-lista avatar-borda-ocorrencia img-fluid img-circle mr-1" alt="User Image">
                     <a href="visualizar_usuario.php">Alexander Pierce</a>
                   </td>
                   <td class=" text-nowrap">369.258.147-99</td>
                   <td class=" text-nowrap"><a href="visualizar_empresa.php">FUNDAÇÃO INOVA PRUDENTE</a></td>
                   <td class=" text-nowrap">
+                    <a href="#" class="btn btn-primary btn-sm center disabled">
+                      <i class="far fa-check-square"></i>&nbsp;
+                      Check-in
+                    </a>
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
@@ -149,13 +161,17 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">
+                  <td class=" text-nowrap avatar-td">
                     <img src="../images/usuarios/avatar3.png" id="user-img" class="avatar-lista img-fluid img-circle mr-1" alt="User Image">
                     Ana Carolina Silva
                   </td>
                   <td class=" text-nowrap">369.258.147-99</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
+                    <a href="#" class="btn btn-primary btn-sm center">
+                      <i class="far fa-check-square"></i>&nbsp;
+                      Check-in
+                    </a>
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
@@ -171,13 +187,17 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class=" text-nowrap">
+                  <td class=" text-nowrap avatar-td">
                     <img src="../images/usuarios/avatar5.png" id="user-img" class="avatar-lista img-fluid img-circle mr-1" alt="User Image">
                     Luis Henrique Souza
                   </td>
                   <td class=" text-nowrap">369.258.147-99</td>
                   <td class=" text-nowrap">FUNDAÇÃO INOVA PRUDENTE</td>
                   <td class=" text-nowrap">
+                    <a href="#" class="btn btn-primary btn-sm center">
+                      <i class="far fa-check-square"></i>&nbsp;
+                      Check-in
+                    </a>
                     <a href="ocorrencias.php" class="btn btn-info btn-sm center">
                       <i class="fas fa-portrait"></i>&nbsp;
                       Ocorrências
