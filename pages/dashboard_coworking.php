@@ -19,7 +19,7 @@ include('../includes/sidebar.php');
   <!-- Main content -->
   <section class="content">
     <div class="container-fluid">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-12 mb-4">
           <div class="callout callout-info">
             <p>
@@ -27,9 +27,9 @@ include('../includes/sidebar.php');
               <br />
               Esse é o ambiente de trabalho para < \Coworking> no InfoInova.
             </p>
-          </div><!-- /.card -->
-        </div><!-- /.col -->
-      </div><!-- /.row -->
+          </div>
+        </div>
+      </div> -->
     </div>
 
     <!-- Flash message -->
@@ -90,35 +90,6 @@ include('../includes/sidebar.php');
                     <div class="form-group">
                       <label for="inputEstimatedBudget">Digite o CPF do usuário</label>
                       <input type="text" id="inputEstimatedBudget" class="form-control">
-                      <!-- <input type="text" id="inputEstimatedBudget" class="form-control" disabled> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-body -->
-              <div class="card-footer">
-                <button type="submit" class="btn btn-primary"><i class="fas fa-calendar-check"></i>&nbsp;&nbsp;Fazer Check-in / Check-out</button>
-                <!-- <button type="submit" class="btn btn-warning"><i class="fas fa-calendar-check"></i>&nbsp;&nbsp;Refazer Check-in / Check-out</button> -->
-              </div>
-              <!-- /.card-footer -->
-            </form>
-          </div>
-          <!-- /.card -->
-        </div>
-
-        <div class="col-md-6">
-          <div class="card card-secondary">
-            <div class="card-header">
-              <h3 class="card-title">Entrada ou Saída de um usuário</h3>
-            </div>
-            <!-- /.card-header -->
-            <form action="dashboard_coworking.php" method="post">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="form-group">
-                      <label for="inputEstimatedBudget">Digite o CPF do usuário</label>
-                      <input type="text" id="inputEstimatedBudget" class="form-control">
                     </div>
                   </div>
                 </div>
@@ -156,6 +127,26 @@ include('../includes/sidebar.php');
           </div>
           <!-- /.card -->
         </div>
+        <!-- /.col-md-6 -->
+        <div class="col-md-6">
+          <div class="card card-secondary">
+            <div class="card-header border-0">
+              <div class="d-flex justify-content-between">
+                <h3 class="card-title mb-0">Agenda</h3>
+                <a class="alink" href="javascript:void(0);">Ver calendário</a>
+              </div>
+            </div>
+            <div class="card-body p-0">
+              <div>
+                <div style="height:400px">
+                  <div id="demo-loading-inline-data"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /.col-md-6 -->
       </div><!-- /.row -->
 
       <div class="row">
@@ -210,107 +201,27 @@ include('../includes/sidebar.php');
         </div>
         <!-- /.col-md-6 -->
       </div><!-- /.row -->
-
+        
       <div class="row">
         <div class="col-md-6">
           <div class="card card-secondary">
             <div class="card-header border-0">
               <div class="d-flex justify-content-between">
-                <h3 class="card-title">Próximos Eventos</h3>
-                <a class="alink" href="javascript:void(0);">Ver Agenda</a>
+                <h3 class="card-title">Inscritos / Participantes</h3>
+                <a class="alink" href="javascript:void(0);">Ver relatório</a>
               </div>
             </div>
-            <div class="card-body table-responsive p-0" style="height: 350px;">
-              <table class="table table-striped table-bordered table-head-fixed text-nowrap">
-                <thead>
-                  <tr>
-                    <th class="">Data</th>
-                    <th class="">Hora</th>
-                    <th class="w-75">Evento</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>19/07/2021</td>
-                    <td>10h00<br />12h00</td>
-                    <td>
-                      <h5>
-                        <strong>Evento Lorem ipsum dolor sit amet consectetur adipiscing elit</strong><br />
-                        <small>Local: Auditório</small>
-                      </h5>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>19/07/2021</td>
-                    <td>10h00<br />12h00</td>
-                    <td>
-                      <h5>
-                        <strong>Evento 1</strong><br />
-                        <small>Local: Sala 1</small>
-                      </h5>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>19/07/2021</td>
-                    <td>10h00<br />12h00</td>
-                    <td>
-                      <h5>
-                        <strong>Evento 2</strong><br />
-                        <small>Local: Sala 2</small>
-                      </h5>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>19/07/2021</td>
-                    <td>10h00<br />12h00</td>
-                    <td>
-                      <h5>
-                        <strong>Evento 3</strong><br />
-                        <small>Local: Sala 3</small>
-                      </h5>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>19/07/2021</td>
-                    <td>10h00<br />12h00</td>
-                    <td>
-                      <h5>
-                        <strong>Evento 4</strong><br />
-                        <small>Local: Sala 4</small>
-                      </h5>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>19/07/2021</td>
-                    <td>10h00<br />12h00</td>
-                    <td>
-                      <h5>
-                        <strong>Evento 5</strong><br />
-                        <small>Local: Sala 5</small>
-                      </h5>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->
-        </div>
-        <!-- /.col-md-6 -->
-        <div class="col-md-6">
-          <div class="card card-secondary">
-            <div class="card-header border-0">
-              <div class="d-flex justify-content-between">
-                <h3 class="card-title mb-0">Agenda</h3>
-                <a class="alink" href="javascript:void(0);">Ver calendário</a>
+            <div class="card-body">
+              <div class="d-flex">
+                <p class="d-flex flex-column">
+                  <span class="text-bold text-lg">4.230 inscritos / 3.158 participantes</span>
+                  <span>Total (Últimos 10 dias)</span>
+                </p>
               </div>
-            </div>
-            <div class="card-body p-0">
-              <div>
-                <div style="height:350px">
-                  <div id="demo-loading-inline-data"></div>
-                </div>
+              <!-- /.d-flex -->
+
+              <div class="position-relative mb-4">
+                <canvas id="chart3" height="200"></canvas>
               </div>
             </div>
           </div>
