@@ -44,10 +44,18 @@
     <!-- /.login-logo -->
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg lead">Acesso ao sistema</p>
-        <form action="primeiro_acesso_username.php" method="post">
+        <p class="login-box-msg lead">Registrar novo usuário</p>
+        <form action="./login.php" method="post">
           <div class="input-group mb-3">
-            <input type="email" class="form-control" placeholder="E-mail ou nome de usuário">
+            <input type="email" class="form-control" placeholder="Nome de usuário (username)">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-user"></span>
+              </div>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="E-mail">
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-envelope"></span>
@@ -55,10 +63,18 @@
             </div>
           </div>
           <div class="input-group mb-3">
-            <input type="password" class="form-control" placeholder="Senha">
+            <input type="password" class="form-control" placeholder="Senha (password)">
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-lock"></span>
+              </div>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <input type="password" class="form-control" placeholder="Confirmar senha">
+            <div class="input-group-append">
+              <div class="input-group-text">
+                <span class="fas fa-unlock"></span>
               </div>
             </div>
           </div>
@@ -69,14 +85,12 @@
 
           <div class="row">
             <div class="col-12 mb-3">
-              <button type="submit" class="btn btn-primary btn-block" disabled><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Acessar</button>
+              <button type="submit" class="btn btn-primary btn-block" disabled><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;Cadastrar</button>
             </div>
             <!-- /.col -->
             <div class="col-12">
               <p>
-                <a href="email_redefinicao_senha.php">&raquo; Esqueci minha senha</a>
-                <br/>
-                <a href="registrar_usuario.php">&raquo; Registrar um novo usuário</a>
+                <a href="./login.php">&raquo; Voltar à tela de login</a>
               </p>
             </div>
           </div>
