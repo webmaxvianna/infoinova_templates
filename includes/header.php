@@ -45,6 +45,8 @@
     .table.dataTable { margin-top: 0px !important; border-collapse: collapse !important; }
     table.dataTable { margin-bottom: 0px !important; }
     #inovaDatatables_info { padding-top: 0px; }
+    
+    .h350 { height: 350px; }
   </style>
 
 </head>

@@ -71,7 +71,7 @@
             <a href="salas.php" class="nav-link">
               <i class="nav-icon fab fa-houzz"></i>
               <p>
-                Salas
+                Salas / Reservas
               </p>
             </a>
           </li>
