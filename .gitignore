@@ -1,2 +1,6 @@
 dist/*
 plugins/*
+images/default-banner.png
+js/pie_chart.js
+includes/sidebar_visitante.php
+pages/dashboard_visitante.php
